@@ -138,6 +138,9 @@ img {
   color: var(--color-text-hero);
   text-align: center;
   padding-top: 188px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button-hero {
   background-color: var(--background-color-btn-hero);
