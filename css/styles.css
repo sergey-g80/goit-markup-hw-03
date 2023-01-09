@@ -136,6 +136,9 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+.button-hero-conteiner {
+  display: flex;
+}
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -146,6 +149,9 @@ img {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+}
+.conteiner-btm {
+  text-align: center;
 }
 .button-hero {
   background-color: var(--background-color-btn-hero);
@@ -163,12 +169,10 @@ img {
   min-height: 56px;
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
-.button-hero-conteiner {
-  text-align: center;
-}
+
 .button-hero:hover,
 .button-hero:focus {
   background-color: var(--background-color-btn-hero-hover);
@@ -272,7 +276,6 @@ img {
   color: var(--color-text-footer);
   margin-top: 16px;
   margin-left: 156px;
-
   width: 264px;
 }
 /* portfolio */
