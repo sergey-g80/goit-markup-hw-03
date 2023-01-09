@@ -136,8 +136,9 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
 }
-.button-hero-conteiner {
-  display: flex;
+
+.conteiner-btm {
+  text-align: center;
 }
 .hero-title {
   font-weight: 700;
@@ -150,9 +151,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.conteiner-btm {
-  text-align: center;
-}
+
 .button-hero {
   background-color: var(--background-color-btn-hero);
   color: var(--color-text-hero);
