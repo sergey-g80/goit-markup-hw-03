@@ -135,11 +135,12 @@ img {
   background-color: var(--background-calar-hero);
   padding-top: 188px;
   padding-bottom: 188px;
-}
-
-.conteiner-btm {
   text-align: center;
 }
+
+/* .conteiner-btm {
+  text-align: center;
+} */
 .hero-title {
   font-weight: 700;
   font-size: 56px;
