@@ -298,12 +298,14 @@ img {
   color: #ffffff;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
-
+.filter-div {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .button-portfolio-list {
   display: flex;
   align-items: center;
   margin-left: 427px;
-  margin-top: 96px;
 }
 .button-portfolio-item:not(:last-child) {
   margin-right: 24px;
@@ -315,7 +317,6 @@ img {
   flex-wrap: wrap;
   gap: 24px;
   padding-top: 72px;
-  padding-bottom: 120px;
 }
 .flex-element {
   flex-basis: calc((100% - 48px) / 3);
