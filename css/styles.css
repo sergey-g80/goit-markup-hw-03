@@ -294,6 +294,7 @@ img {
   background-color: #404bbf;
   color: #ffffff;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+  border-color: #404bbf;
 }
 .button-portfolio-list {
   display: flex;
@@ -311,7 +312,7 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  padding-top: 72px;
+  margin-top: 72px;
 }
 .flex-element {
   flex-basis: calc((100% - 48px) / 3);
