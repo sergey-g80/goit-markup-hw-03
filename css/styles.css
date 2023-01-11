@@ -218,19 +218,13 @@ img {
 .what-are-item {
   flex-basis: calc((100% - 48px) / 3);
 }
-.our-team {
-  width: 1128px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .our-team-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
-.text-our-team {
-  padding-top: 120px;
-}
+
 .our-team-item {
   flex-basis: calc((100% - 72px) / 4);
 }
@@ -244,10 +238,8 @@ img {
 }
 .section-our-team {
   background-color: var(--background-color-our-team);
-
+  padding-top: 120px;
   padding-bottom: 120px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .our-team-p {
   color: var(--color-text-features-p);
