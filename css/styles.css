@@ -309,7 +309,8 @@ img {
 .flex-conteiner {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
   padding-top: 72px;
 }
 .flex-element {
