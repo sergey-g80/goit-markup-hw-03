@@ -282,7 +282,6 @@ img {
 .portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
-  text-align: center;
 }
 
 .portfolio button {
@@ -304,10 +303,10 @@ img {
   color: #ffffff;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
-
 .button-portfolio-list {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .button-portfolio-item:not(:last-child) {
   margin-right: 24px;
@@ -327,15 +326,12 @@ img {
 .flex-element-text {
   border-color: #e7e9fc;
   border-style: solid;
-  border-top: 1px;
-  height: 120px;
-  width: 360px;
+  border-width: 1px;
+  border-top-width: 0;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-top: 32px;
 }
 .text-features-title {
-  padding: 32px;
-  padding-left: 16px;
   padding-bottom: 8px;
-}
-.text-features-p {
-  padding-left: 16px;
 }
